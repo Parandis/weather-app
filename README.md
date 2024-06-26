@@ -1,11 +1,11 @@
 ### Date
-The date you're submitting this.
+June 27, 2024
 
 ### Location of deployed application
 NA
 
 ### Time spent
-How much time did you spend on the assignment? Normally, this is expressed in hours.
+I spent around 3 hours on this project.
 
 ### Assumptions made
 - The weather forecast is specifically for Vancouver.
