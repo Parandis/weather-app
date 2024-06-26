@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import WeatherForecast from './components/WeatherForecast';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders weather forecast', async () => {
+    render(<WeatherForecast city="Vancouver" />);
+    const linkElement = await screen.findByText(/5-Day Weather Forecast/i);
+    expect(linkElement).toBeInTheDocument();
 });

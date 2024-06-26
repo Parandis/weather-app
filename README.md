@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+### Date
+The date you're submitting this.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Location of deployed application
+NA
 
-## Available Scripts
+### Time spent
+How much time did you spend on the assignment? Normally, this is expressed in hours.
 
-In the project directory, you can run:
+### Assumptions made
+- The weather forecast is specifically for Vancouver.
+- Users have a stable internet connection to fetch data from the OpenWeatherMap API.
+- Users will access the application using modern web browsers.
 
-### `npm start`
+### Shortcuts/Compromises made
+- To save time, I stuck to basic UI/UX features and simplified error handling.
+- While I considered accessibility, more thorough testing and adjustments could improve it further.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Stretch goals attempted
+- Used Bootstrap for most of the CSS.
+- Updated the CSS to SASS for more practical usage.
+- Added basic unit tests, but more comprehensive tests, including integration tests, would be ideal.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Instructions to run assignment locally
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Create a `.env` file with your OpenWeatherMap API key [REACT_APP_API_KEY=your_api_key_here]
+4. Run `npm start` to start the development server
 
-### `npm test`
+### What did you not include in your solution that you want us to know about?
+- I wanted to add a search bar to make the app more practical and dynamic, not limited to one city.
+- I planned to display more weather details on click for each forecast box.
+- There’s potential for better error handling, such as retry logic for failed API calls.
+- The UI/UX could benefit from more improvement and a more appealing design.
+- I aimed to break down the WeatherForecast component into smaller ones for better maintainability and updates.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Other information about your submission that you feel it's important that we know if applicable.
+While the application meets basic requirements, I believe there's significant potential for enhancement with more time and detailed requirements.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Your feedback on this technical challenge
+I enjoyed working on this assignment as it allowed me to showcase my skills and creativity. While the current version meets the basic requirements, it doesn’t fully represent the high standards I set for my work. With more time and detailed information, I could enhance the application significantly.
