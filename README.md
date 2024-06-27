@@ -31,6 +31,7 @@ I spent around 3 hours on this project.
 - There’s potential for better error handling, such as retry logic for failed API calls.
 - The UI/UX could benefit from more improvement and a more appealing design.
 - I aimed to break down the WeatherForecast component into smaller ones for better maintainability and updates.
+- I would prefer to have the search bar as a separate component to improve error handling and loading efficiency.
 
 ### Other information about your submission that you feel it's important that we know if applicable.
 While the application meets basic requirements, I believe there's significant potential for enhancement with more time and detailed requirements.
