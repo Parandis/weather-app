@@ -8,7 +8,6 @@ NA
 I spent around 3 hours on this project.
 
 ### Assumptions made
-- The weather forecast is specifically for Vancouver.
 - Users have a stable internet connection to fetch data from the OpenWeatherMap API.
 - Users will access the application using modern web browsers.
 
@@ -28,7 +27,6 @@ I spent around 3 hours on this project.
 4. Run `npm start` to start the development server
 
 ### What did you not include in your solution that you want us to know about?
-- I wanted to add a search bar to make the app more practical and dynamic, not limited to one city.
 - I planned to display more weather details on click for each forecast box.
 - There’s potential for better error handling, such as retry logic for failed API calls.
 - The UI/UX could benefit from more improvement and a more appealing design.

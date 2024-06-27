@@ -38,8 +38,7 @@ const WeatherForecast: React.FC<{ city: string }> = ({ city }) => {
   }
 
   return (
-    <section className="weather-forecast p-5" aria-labelledby="weather-forecast-title">
-          <h2 id="weather-forecast-title" className="text-center my-4" tabIndex={0}>{city}'s 5-Day Weather Forecast</h2>
+    <section className="weather-forecast" aria-labelledby="weather-forecast-title">
           <ul className="row align-center list-unstyled">
               {forecast.map((item, index) => (
                   <li key={index} className="text-center col-xl-3 col-lg-4 col-md-6 col-sm-12 my-4" tabIndex={0}>
