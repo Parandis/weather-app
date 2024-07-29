@@ -1,9 +1,3 @@
-### Date
-June 27, 2024
-
-### Location of deployed application
-NA
-
 ### Time spent
 I spent around 3 hours on this project.
 
@@ -35,6 +29,3 @@ I spent around 3 hours on this project.
 
 ### Other information about your submission that you feel it's important that we know if applicable.
 While the application meets basic requirements, I believe there's significant potential for enhancement with more time and detailed requirements.
-
-### Your feedback on this technical challenge
-I enjoyed working on this assignment as it allowed me to showcase my skills and creativity. While the current version meets the basic requirements, it doesn’t fully represent the high standards I set for my work. With more time and detailed information, I could enhance the application significantly.
